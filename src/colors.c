@@ -1,4 +1,4 @@
-#include "B24CH1028_B24CS1076_B24CH1049_B24CS1049_B24CM1062_headerfile.h"
+#include "headerfile.h"
 char Pink[20] = "\033[1;35m";
 char Blue[20] = "\033[1;34m";
 char Yellow[20] = "\033[1;33m";

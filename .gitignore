@@ -1,0 +1,4 @@
+games
+*.o
+.DS_Store
+
