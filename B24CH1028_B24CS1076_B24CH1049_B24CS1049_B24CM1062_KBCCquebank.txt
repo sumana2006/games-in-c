@@ -1,0 +1,401 @@
+Which of the following is not a valid C variable name?
+int number;
+float rate;
+int variable_count;
+int $main;
+D
+20
+2000
+Which of the following is the correct syntax for a for loop in C?
+for (int i = 0; i < 10; i++)
+for (i = 0, i < 10, i++)
+for (int i = 0; i < 10; ++i)
+for (i < 10; ++i)
+A
+20
+2000
+Which of the following is used to dynamically allocate memory in C?
+malloc()
+alloc()
+new()
+callock()
+A
+20
+2000
+What is the default return type of a function in C if not specified?
+int
+void
+char
+double
+A
+20
+2000
+Which function is used to find the length of a string in C?
+strlen()
+strlength()
+length()
+size()
+A
+20
+2000
+What does the sizeof operator do in C?
+Returns the size of a variable
+Returns the number of elements in an array
+Allocates memory for variables
+None of the above
+A
+20
+2000
+Which of the following is not a valid C data type?
+int
+float
+double
+string
+D
+20
+2000
+Which of the following is used to terminate a string in C?
+*
+&
+\0
+\n
+C
+20
+2000
+In C, what is the size of an int on a 64-bit machine?
+2 bytes
+4 bytes
+8 bytes
+Depends on the system
+B
+20
+2000
+What is the correct way to declare a constant in C?
+const int x = 10;
+constant int x = 10;
+int const x = 10;
+Both A and C
+D
+20
+2000
+Which of the following is used to allocate memory dynamically in C?
+malloc()
+free()
+calloc()
+Both A and C
+D
+20
+2000
+What does the & operator do in C?
+Dereferences a pointer
+Finds the address of a variable
+Performs bitwise AND operation
+None of the above
+B
+20
+2000
+What does #include do in C?
+Includes standard libraries
+Includes user-defined libraries
+Includes external libraries
+None of the above
+A
+20
+2000
+What is the range of char data type in C (on most systems)?
+-128 to 127
+0 to 255
+-32,768 to 32,767
+-1,000,000 to 1,000,000
+A
+20
+2000
+Which of the following functions is used to compare two strings in C?
+strcmp()
+strcompare()
+compare()
+strcomp()
+A
+20
+2000
+Which of the following is used to define macro in c?
+#ifndef
+#define
+#macro
+macro
+B
+15
+2500
+Which of the following is used to copy one string to other?
+strcmp()
+strcpy()
+strlen()
+tolower()
+B
+15
+2500
+which of the following statements is true about calloc()?
+It allocates memory and initializes it to zero
+It allocates memory without initialization
+It initializes memory with garbage value
+It frees allocated memory
+A
+20
+3000
+What does ++i do in C?
+Increments i after using it
+Increments i before using it
+Decrements i
+None of the above
+B
+20
+3000
+Which header file is required for using malloc() and calloc() in C?
+<conio.h>
+<stdio.h>
+<stdlib.h>
+<string.h>
+C
+20
+3000
+Which operator is used to perform a bitwise OR operation in C?
+&
+|
+^
+~
+B
+20
+2000
+Which of the following statements will read an integer value from the user in C?
+scanf("%d", &x);
+scanf("%f", &x);
+scanf("%s", &x);
+input("%d", x);
+A
+20
+2000
+Which keyword is used to jump out of a switch statement?
+exit
+stop
+break
+continue
+C
+20
+2500
+Which of the following is true about scanf() in C?
+Used to display output
+Used to allocate memory
+Used to take input
+Used to compare strings
+C
+20
+1000
+Which operator is used to access value pointed by a pointer?
+&
+*
+%
+@
+B
+20
+2800
+Which format specifier is used to print a long long in C?
+%lld
+%d
+%f
+%lf
+A
+20
+3000
+What will the expression 10 / 3 evaluate to in C?
+3.33
+3
+0
+Error
+B
+20
+2500
+What does the continue statement do in C?
+Exits the loop
+Skips the current iteration
+Ends the program
+Pauses the program
+B
+20
+2500
+Which of the following is the correct syntax for defining an array?
+int arr[5];
+arr int[5];
+int[5] arr;
+array int arr[5];
+A
+20
+2500
+Which loop is guaranteed to run at least once?
+for
+while
+do-while
+None
+C
+20
+2000
+Which keyword is used to define a structure in C?
+struct
+structure
+record
+type
+A
+20
+2000
+Which function is used to convert string to integer in C?
+strtoint()
+atoi()
+int()
+toint()
+B
+20
+2000
+What is the ASCII value of character 'A'?
+97
+65
+66
+64
+B
+20
+2000
+What will be the condition to check if a singly linked list is empty?
+head == 0
+head == NULL
+head == 1
+head == '\0'
+B
+20
+2000
+In a singly linked list, what does the last node's next pointer contain?
+Address of first node
+0
+NULL
+Garbage value
+C
+20
+2000
+Which of the following is not an advantage of linked lists over arrays?
+Dynamic size
+Efficient insertion and deletion
+Less memory usage
+No memory waste
+C
+20
+2000
+Which type of linked list allows traversal in both directions?
+Singly linked list
+Circular linked list
+Doubly linked list
+Single circular list
+C
+20
+2000
+Which function is used to open a file in C?
+open()
+start()
+fopen()
+file_open()
+C
+20
+2000
+Which mode is used to open a file for writing in C?
+"r"
+"w"
+"a"
+"rw"
+B
+20
+2000
+Which function is used to write a character to a file in C?
+putchar()
+putc()
+fputc()
+write()
+C
+20
+2000
+Which operator is used to access structure members?
+.
+->
+::
+Both A and B
+D
+20
+2000
+What is the index of the first element in a C array?
+1
+0
+-1
+Depends on compiler
+B
+20
+2000
+What does the realloc() function do in C?
+Allocates new memory
+Frees allocated memory
+Resizes previously allocated memory
+None of the above
+C
+20
+2000
+Which of the following is the correct syntax for defining a function in C?
+void function() { }
+function void() { }
+void {function}() { }
+void function;() { }
+A
+20
+2000
+What will happen if you open a file with the "w" mode and the file already exists?
+File will be overwritten
+File will be appended
+File will be read
+File will not be opened
+A
+20
+2000
+What is the correct way to read a line from a file in C?
+fscanf()
+fgetc()
+fgets()
+getchar()
+C
+20
+2000
+Which operator is used to dereference a pointer in C?
+&
+*
+->
+::
+B
+20
+2000
+Which function is used to read an integer from a file in C?
+fscanf()
+fget()
+fread()
+fgeti()
+A
+20
+2000
+Which of the following statements is correct about arrays in C?
+Array indices start from 0
+Array indices start from 1
+Arrays can only store integers
+Array size cannot be changed during runtime
+A
+20
+2000
+Which of the following statements is true regarding recursion in C?
+A recursive function always has a base case
+A recursive function does not need a return type
+A recursive function can call itself multiple times
+All of the above
+D
+20
+2000
+
