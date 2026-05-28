@@ -1,4 +1,4 @@
-#include "headerfile.h"
+#include "common.h"
 char Pink[20] = "\033[1;35m";
 char Blue[20] = "\033[1;34m";
 char Yellow[20] = "\033[1;33m";

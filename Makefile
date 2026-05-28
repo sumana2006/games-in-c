@@ -1,7 +1,12 @@
 CC = gcc
 CFLAGS = -Wall -Iinclude
 
-SRC = src/*.c
+SRC = \
+src/core/*.c \
+src/games/*.c \
+src/platform/*.c \
+src/utils/*.c
+
 OUT = games
 
 all:

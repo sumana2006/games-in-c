@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "headerfile.h"
+#include "common.h"
 
 int main(){
     int n;
