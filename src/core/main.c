@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include "games/snake.h"
+#include "platform.h"
 #include "common.h"
 
 int main(){
@@ -16,8 +18,29 @@ int main(){
    tic_tac_toe();
    break;
    case 2:
-   snake();
-   break;
+{
+    SnakeState s;
+
+    snake_startup();
+
+    snake_init(&s);
+
+    while (!snake_is_over(&s))
+    {
+        snake_input(&s);
+        snake_update(&s);
+        snake_render(&s);
+
+        sleep_ms(s.tick_delay);
+    }
+
+    snake_cleanup();
+
+    printf("Game Over!\n");
+    printf("Your score is: %d\n", s.score);
+
+    break;
+}
    case 3:
    kbcc();
    break;
